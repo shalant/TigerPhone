@@ -1,0 +1,74 @@
+.theme {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.6)), url(../assets/kartik-iyer-DJ4vjcD0s0I-unsplash.jpg);
+    background-size: cover;
+    background-repeat:no-repeat;
+    min-height: 100vh;
+    align-items: center;
+}
+
+.main-page {
+    height:max-content;
+}
+
+.title {
+    padding: 2rem 0 0 0;
+    font-size: 900%;
+    color: black;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    text-shadow: horizontal-offset vertical-offset blur color;
+    text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+
+}
+
+/* .title:hover {
+    font-size: 910%;
+    color: rgb(93, 172, 199);
+} */
+
+.byline {
+    color: black;
+    font-size: 300%;
+    text-align: center;
+    text-shadow: horizontal-offset vertical-offset blur color;
+    text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+    padding: 11rem 0 0 0;
+}
+
+/* .byline:hover {
+    font-size: 310%;
+    color: rgb(199, 227, 236);
+} */
+
+.navcol {
+    background-color: orangered;
+    margin: 0 0 5rem;    
+}
+
+.nav-pad {
+    padding: 0 2rem 0 2rem;
+}
+
+.nav-item {
+    padding: 0 1rem 0 1rem !important;
+}
+
+/* .frontpage-image {
+    align-items: center;
+    justify-content: center;
+} */
+
+.right {
+    margin-left:auto; 
+    margin-right: 1rem;
+}
+
+.footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: orangered;
+    color: black;
+    text-align: center;
+  }

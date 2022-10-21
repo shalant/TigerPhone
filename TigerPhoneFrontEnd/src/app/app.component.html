@@ -1,0 +1,41 @@
+<div class="theme">
+  <div class="container-fluid main-page">
+    <!-- <header > -->
+    <div>
+
+      <nav class="navbar navbar-expand-lg navbar-light navcol">
+        <a class="navbar-brand nav-pad" href="#"><h3>Tiger Phone©</h3></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-item nav-link active nav-pad" href="#"><h4>Home</h4></a>
+            <a routerLink="Users" class="nav-item nav-link nav-pad" href="#"><h4>Users</h4></a>
+            <a routerLink="Devices" class="nav-item nav-link nav-pad" href="#"><h4>Devices</h4></a>
+            <a routerLink="Plans" class="nav-item nav-link nav-pad" href="#"><h4>Plans</h4></a>
+          </div>
+        </div>
+            <a routerLink="Login" class="nav-item nav-link nav-pad right" href="#"><h4>Login</h4></a>
+      </nav>
+  
+      <a href="#" class="navbar-brand">
+        <h1 class="title">Welcome to Tiger Phone</h1>
+      </a>
+      <p class="byline">Finally, a phone company with teeth!</p>
+    </div>
+  <!-- </header> -->
+
+
+    <div class="container mt-3">
+      <router-outlet></router-outlet>
+    </div>
+
+
+    <!-- footer -->
+    <!-- <footer class="footer">
+      <p>Project 2 by John Pae and Douglas Rosenberg</p>
+      <p><a href="mailto:drosenberg@skillstorm.com">DRosenberg@Skillstorm.com</a></p>
+    </footer> -->
+  </div>
+  </div>

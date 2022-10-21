@@ -1,0 +1,25 @@
+.container-custom {
+    padding-bottom: 10rem;
+}
+
+.header-title {
+    color: darkred;
+    text-align: center;
+    font-weight: 900;
+    font-size: 800%;
+    text-shadow: 2px 2px #ff0000;
+
+}
+
+.fit-image {
+    height: 27rem;
+}
+
+.fit-watch {
+    height: 27rem;
+    border-bottom: black solid 1px;
+}
+
+.custom {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; 
+}

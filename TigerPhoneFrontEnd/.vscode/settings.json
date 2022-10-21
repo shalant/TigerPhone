@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/bbe89370-9f3b-4aa2-9d60-34201458a79a/microsoft.web/sites/subscriptions/bbe89370-9f3b-4aa2-9d60-34201458a79a/resourceGroups/TigerPhone/providers/Microsoft.Web/sites/TigerPhoneFrontEnd",
+    "appService.deploySubpath": "."
+}

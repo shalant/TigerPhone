@@ -1,0 +1,58 @@
+<div class="container">
+    <h1 class="title">User</h1>
+    <!-- <a href="#" routerLink="/user/create/" class="btn btn-success">+ Add A Plan</a> -->
+    <!-- <a href="#" routerLink="/user/create/" class="btn btn-success">+ Add A Device</a> -->
+    <table class="table table-bordered table-striped table-hover custom-text">
+        <thead>
+            <tr>
+                <th scope="col">Name</th>
+                <th scope="col">Email</th>
+                <th scope="col">Plans</th>
+                <th scope="col">Devices</th>
+                <th scope="col">Browse Plans and Devices</th>
+
+                <!-- <th>Edit</th> -->
+            </tr>
+        </thead>
+        <tbody class="table-anchors">
+            <tr class="table-active" *ngFor="let user of users">
+                
+                <td>{{ user.userName }}
+                    <a href="#" [routerLink]="['/User/' + user.id]" class="btn btn-secondary table-anchors">Details</a>
+
+                </td>
+                
+                <td>{{ user.email }}</td>
+
+                <td>
+                    <a href="#" [routerLink]="['/User/' + user.id]" ></a>
+                    <!-- <p>should show data</p> -->
+                    <button  type="button"  class="btn btn-secondary">Plans</button> 
+                        {{ plans }}
+                    <button type="button" class="btn btn-danger">Delete</button> 
+                    <!-- (click)="deletePassenger(passenger.id)" -->
+                </td>
+
+                <td>
+                    <!-- <a href="#" [routerLink]="['/passenger/', passenger.id]" class="btn btn-primary">Details</a> -->
+                    <!-- <a href="#" [routerLink]="['/Passengers/edit/', passenger.id]" class="btn btn-info">Edit</a> -->
+                    <a href="#" [routerLink]="['/User/' + user.id]" ></a>{{ user.devices }}
+                    <!-- <a [routerLink]="['user']" [queryParams]="{planId: plan.id}">Edit info</a> -->
+                    <button  type="button"  class="btn btn-secondary">Devices</button>
+                    <button type="button"  class="btn btn-danger">Delete</button> 
+
+                    <!-- <button type="button" (click)="deleteDevice(devices.id)" class="btn btn-danger">Delete</button>  -->
+                    <!-- (click)="deletePassenger(passenger.id)" -->
+                </td>
+                <td>
+                    <a href="#" [routerLink]="['/Plans']" class="btn btn-info">Plans</a>
+                    <a href="#" [routerLink]="['/Devices']" class="btn btn-secondary">Devices</a>
+                    <button type="button"  class="btn btn-danger">Delete User</button> 
+
+                </td>
+
+                
+            </tr>
+        </tbody>
+    </table>
+</div>

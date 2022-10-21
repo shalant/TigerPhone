@@ -1,0 +1,17 @@
+.title {
+    color: darkred;
+    text-shadow: bisque;
+    font-weight: 900;
+    text-align: center;
+    border: black;
+    border-style: inset;
+    border-radius: 10px;
+}
+
+.custom-text {
+    font-weight: 900;
+}
+
+.table-anchors {
+    justify-content: end;
+}
